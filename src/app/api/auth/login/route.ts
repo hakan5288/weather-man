@@ -49,5 +49,13 @@ export async function POST(request: Request) {
         user: { id: user.id, name: user.name, email: user.email },
       },
     });
-  } catch (e) {}
+  } catch (e) {
+    return NextResponse.json(
+      {
+        message: "Internal Server Error",
+        error: error.message,
+      },
+      { status: 500 }
+    );
+  }
 }
