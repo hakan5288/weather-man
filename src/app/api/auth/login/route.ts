@@ -67,7 +67,7 @@ import prisma from "@/lib/prisma";
            user: { id: user.id, name: user.name, email: user.email },
          },
        });
-     } catch (error: Error) {
+     } catch (error: any) {
        console.error("Login API Error:", error.message, error.stack);
        return NextResponse.json(
          {
