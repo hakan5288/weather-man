@@ -11,7 +11,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://weatherdb_owner:npg_i2fhKUsrjdN1@ep-flat-boat-a1luzbzo-pooler.ap-southeast-1.aws.neon.tech/weatherdb?sslmode=require"
 }
 
 
