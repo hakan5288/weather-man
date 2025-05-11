@@ -19,6 +19,8 @@ const eslintConfig = [
       "prefer-const": "off", // Allow non-const variables
       "@typescript-eslint/no-explicit-any": "off", // Allow 'any' type
       "react-hooks/exhaustive-deps": "warn", // Downgrade to warning instead of error
+      "@typescript-eslint/no-unused-expressions": "off", // Disable no-unused-expressions rule
+      "@typescript-eslint/no-require-imports": "off", // Disable no-require-imports rule
     },
   },
 ];
