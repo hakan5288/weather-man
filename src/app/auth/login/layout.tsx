@@ -25,7 +25,7 @@ export default function LoginLayout({
       <div className="hidden bg-muted p-10 md:flex md:flex-col md:justify-between">
         <div className="flex items-center space-x-2">
           <div className="h-6 w-6 rounded-full bg-primary" />
-          <span className="text-xl font-bold">Weather Man</span>
+          <span className="text-xl font-bold">Weather Man Demo video</span>
         </div>
         <div className="space-y-6">
           <h1 className="text-3xl font-bold">Welcome back</h1>
